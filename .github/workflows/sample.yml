@@ -14,6 +14,6 @@ jobs:
             -   name: Dump runner context
                 run: echo "${{toJson(runner)}}"
             -   name: Dump strategy context
-                run: eccho "${{toJson(strategy)}}"
+                run: echo "${{toJson(strategy)}}"
             -   name: Dump matrix context
                 run: echo "${{toJson(matrix)}}"
